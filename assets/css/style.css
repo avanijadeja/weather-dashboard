@@ -1,0 +1,299 @@
+/* for whole body elements properties */
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size : 18px;
+}
+  
+/* main heading properties - apply gradient on background */
+.h1-container
+{
+    padding: 4px;
+    background-image: linear-gradient(to right, #484bff , #100156);
+    background-color: blue;/* for browser who dont support gradient */
+}
+
+/* class form container padding property */
+.form-container 
+{
+    padding:10px 50px 0px 50px;
+}
+  
+/* Search heading text property */
+.search-label
+{
+    font-size: 30px;
+    font-weight: 600;
+    margin-bottom: 10px;
+}
+  
+/* line properties */
+#hline
+{
+    width:350px;
+    height:2px;
+    border: 1px;
+    background-color: gray;
+}
+
+/*search input text box properties */
+.search-input
+{
+   /* width: 100%;
+    height: 40px; */
+    border-color: lightgrey;
+    border-width: thin;
+    padding: 0 15px;
+    margin-bottom: 10px;
+    width: 350px;
+    height: 45px;
+}
+  
+/* serach button Properties */
+.search-button
+{
+    border-radius: 12px;
+    width: 350px;
+    height: 45px;
+    padding: 10px 15px;
+    font-size: 18px;
+}
+  
+/* serach history container properties */
+.search-history-container 
+{
+    padding:0px 50px;
+}
+
+/* serach history container class past search properties in which its shows previously serach cities names */
+.past-search
+{
+    background-color: lightgray;
+    color: black;
+    border-width: thin;
+    border-color: lightgrey;
+    border-style: solid;
+    border-radius: 12px;
+    margin: 0;
+    text-align: center;
+    width: 350px;
+    height: 45px;
+    line-height: 45px;
+    padding: 0 20px;
+    margin-bottom: 10px;
+}
+  
+/* current weather container properties */
+.current-weather-container 
+{
+    border-color: lightgrey;
+    border-width: 5px;
+    border-style: solid;
+    border-radius: 3px;
+    margin: 20px 20px 0 20px;
+    padding: 0 0 12px 0;
+}
+  
+/* current title container properties */
+.current-title-container 
+{
+    display: flex;
+}
+  
+/* display current day class current title properties */
+.current-title
+{
+    font-size: 40px;
+    margin: 15px 0 20px 20px;
+}
+  
+/* current weather icon properties*/
+.current-weather-icon 
+{
+    width: 80px;
+    height: 80px;
+}
+  
+/*current temp, humidity,windspeed class properties */
+.current-temperature, .current-humidity, .current-wind-speed
+{
+    margin: 15px 20px;
+    font-size: 18px;
+}
+  
+/* future forecast container properties*/
+.future-forecast-container
+{
+    margin: 5px 20px 0 20px;
+}
+  
+/*future forecast title properties */
+.future-forecast-title 
+{
+    font-size: 20px;
+}
+  
+/* future card details properties */
+.future-card-details
+{
+    width: 17%;
+    padding: 7px 0 0 7px;
+}
+  
+/* future date properties */
+.future-date
+{
+    font-size: 20px;
+}
+  
+/* future icon properties*/
+.future-icon
+{
+    width: 50px;
+    height: 50px;
+    margin: 0 0 0 15px;
+}
+  
+/* future temp, humidity, windspeed properties */
+.future-temp, .future-humidity ,.future-wind-speed
+{
+    font-size: 18px;
+    font-weight: 200;
+}
+  
+/* for different media screen, change different properties so output of this application looks good in all media screen */
+@media screen and (max-width:1200px) 
+{
+    .search-label
+    {
+      font-size: 23px;
+    }
+    .current-title
+    {
+      font-size: 33px;
+    }
+    #hline
+    {
+      width:200px;
+      height:2px;
+    }
+    .search-input
+    {
+      width: 200px;
+      height: 40px;
+    }
+    .search-button
+    {
+      border-radius: 12px;
+      width: 200px;
+      height: 40px;
+    }
+    .past-search
+    {
+      width: 200px;
+      height: 40px;
+    }
+    .future-icon
+    {
+      width: 30px;
+      height: 30px;
+      margin: 0 0 0 15px;
+    }
+    .future-temp, .future-humidity ,.future-wind-speed{
+      font-size: 13px;
+    }
+}
+  
+@media screen and (max-width:992px) 
+{
+    .search-label
+    {
+      font-size: 18px;
+    }
+    .current-title
+    {
+      font-size: 29px;
+    }
+    .future-date
+    {
+      font-size: 12px;
+    }
+    .future-temp, .future-humidity ,.future-wind-speed
+    {
+      font-size: 10px;
+    }
+}
+  
+@media screen and (max-width:768px)
+{
+    .search-label
+    {
+      font-size: 15px;
+    }
+    .current-title
+    {
+      font-size: 30px;
+    }
+    #hline
+    {
+      width:150px;
+      height:2px;
+    }
+    .search-input
+    {
+      width: 150px;
+      height: 40px;
+    }
+    .search-button
+    {
+      border-radius: 12px;
+      width: 150px;
+      height: 40px;
+    }
+    .past-search
+    {
+      width: 150px;
+      height: 40px;
+    }
+    .future-icon
+    {
+      width: 30px;
+      height: 30px;
+      margin: 0 0 0 15px;
+    }
+    .future-temp, .future-humidity ,.future-wind-speed
+    {
+      font-size: 10px;
+    }
+}
+  
+  
+@media screen and (max-width:600px) 
+{
+    .search-label
+    {
+      font-size: 15px;
+    }
+    .past-search
+    {
+      font-size: 15px;
+      text-align: center;
+      width: 100px;
+      height: 40px;
+      margin:2px;
+      padding: 0px;
+    }
+    .future-icon
+    {
+      width: 30px;
+      height: 30px;
+      margin: 0 0 0 15px;
+    }
+    .future-temp, .future-humidity ,.future-wind-speed
+    {
+      font-size: 10px;
+    }
+}
+  
