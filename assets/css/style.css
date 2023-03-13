@@ -159,7 +159,7 @@
 /* future temp, humidity, windspeed properties */
 .future-temp, .future-humidity ,.future-wind-speed
 {
-    font-size: 18px;
+    font-size: 15px;
     font-weight: 200;
 }
   
@@ -195,6 +195,11 @@
       width: 200px;
       height: 40px;
     }
+    .future-card-details
+    {
+      text-align: center;
+      padding: 0px;
+    }
     .future-icon
     {
       width: 30px;
@@ -215,6 +220,11 @@
     .current-title
     {
       font-size: 29px;
+    }
+    .future-card-details
+    {
+      text-align: center;
+      padding: 0px;
     }
     .future-date
     {
@@ -257,32 +267,9 @@
       width: 150px;
       height: 40px;
     }
-    .future-icon
+    .future-card-details
     {
-      width: 30px;
-      height: 30px;
-      margin: 0 0 0 15px;
-    }
-    .future-temp, .future-humidity ,.future-wind-speed
-    {
-      font-size: 10px;
-    }
-}
-  
-  
-@media screen and (max-width:600px) 
-{
-    .search-label
-    {
-      font-size: 15px;
-    }
-    .past-search
-    {
-      font-size: 15px;
       text-align: center;
-      width: 100px;
-      height: 40px;
-      margin:2px;
       padding: 0px;
     }
     .future-icon
@@ -293,7 +280,64 @@
     }
     .future-temp, .future-humidity ,.future-wind-speed
     {
-      font-size: 10px;
+      font-size: 8px;
+      padding:0px;
+    }
+}
+  
+  
+@media screen and (max-width:600px) 
+{
+    .search-label
+    {
+      font-size: 15px;
+    }
+
+
+    .current-title
+    {
+      font-size: 25px;
+    }
+    #hline
+    {
+      width:100px;
+      height:2px;
+    }
+    .search-input
+    {
+      width: 100px;
+      height: 40px;
+    }
+    .search-button
+    {
+      border-radius: 12px;
+      width: 100px;
+      height: 40px;
+    }
+    .past-search
+    {
+      font-size: 15px;
+      text-align: center;
+      width: 100px;
+      height: 40px;
+      margin:2px;
+      padding: 0px;
+    }
+    .future-card-details
+    {
+      text-align: center;
+      padding: 0px;
+    }
+    .future-icon
+    {
+      width: 30px;
+      height: 30px;
+      margin: 0 0 0 15px;
+    }
+    .future-temp, .future-humidity ,.future-wind-speed
+    {
+      font-size: 8px;
+      padding:0px;
     }
 }
   
