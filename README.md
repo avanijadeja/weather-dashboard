@@ -14,9 +14,9 @@ N/A
 In weather dashboard application user can see search for city label and below one text box. when user enters proper city name in textbox then weather display on screen.here first on top of page user can see city name and current date and whats current weather.and below that its shows temperature,humidity and wind of current day.Below then its shoes 5day forecast so in that its display next 5 day weather.One advantage of this application is when user enter city name then its display below to serach button so again when user wants to see same city weather user just click on that city name so again user can see same city name weather. so no need to type again city name.here If user don't enter proper city name then alert message display like try seraching valid city name so if user enter wrong city name and spelling mistake happends its shows alert message.
 Here I attached some screenshot of weather dashboard application and links.
 
-1. The URL of the weather-dashboard functional, deployed application - 
+1. The URL of the weather-dashboard functional, deployed application - https://avanijadeja.github.io/weather-dashboard/
 
-2. The URL of the GitHub repository - 
+2. The URL of the GitHub repository - https://github.com/avanijadeja/weather-dashboard
 
 3. Scrrenshots of the weather-dashboard application.
 
